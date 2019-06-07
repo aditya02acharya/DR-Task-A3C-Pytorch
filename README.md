@@ -3,6 +3,10 @@ When people search for a target in a novel image they often make use of eye move
 
 # Task
 In the distractor ratio task the  display  consists of a target object, which is randomly positioned amongst  distractor objects each of which shares at least one common feature with the target. The goal is to respond whether the target is present or absent. An example display is shown in images below where the target is a red letter O. The distractors in this display share either a same-colour or same-shape feature with the target.
+<br/>
+<img src="./a.png" width="250" height="250">
+<img src="./b.png" width="250" height="250">
+<img src="./c.png" width="250" height="250">
 
 # Quickstart
 1. Run the DataGeneration.ipynb notebook first to generate data samples that will be used to train the model.
