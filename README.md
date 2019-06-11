@@ -25,8 +25,12 @@ HLS channel with gaussian blur.
 <img src="./colour-hls-3.png" width="300" height="200">
 <br/>
 #### Sample Output:
-First image is the score for O-ness or X-ness of object shape. Score of 1 means highly confident shape is O, Score of 0 means highly confident shape is X. Second image is score for red-ness or green-ness of object colour. Score of 1 means highly confident colour is red, Score of 0 means highly confident colour is green
+First image is the score for O-ness or X-ness of object shape. Score of 1 means highly confident shape is O, Score of 0 means highly confident shape is X. 
+<br/>
 <img src="./o-shape-prob.png" width="300" height="200">
+<br/>
+Second image is score for red-ness or green-ness of object colour. Score of 1 means highly confident colour is red, Score of 0 means highly confident colour is green.
+<br/>
 <img src="./red-colour-prob.png" width="300" height="200">
 <br/>
 3. Finally run the A3C_Pytorch.ipynb notebook, this is the reinforcment controller that learn to control eye movements.
